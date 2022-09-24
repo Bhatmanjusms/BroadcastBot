@@ -48,14 +48,15 @@ async def startprivate(client, message):
     joinButton = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/nacbots"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/serials_funda"),
                 InlineKeyboardButton(
-                    "SUPPORT GROUP", url="https://t.me/n_a_c_bot_developers"
+                    "FOR ANY SUPPORT ", url="https://t.me/Ff_tv_bot"
                 ),
             ]
         ]
     )
-    welcomed = f"Hey <b>{message.from_user.first_name}</b>\nI'm a simple Telegram bot that can broadcast messages and media to the bot subscribers. Made by @NACBOTS.\n\n 🎚 use /settings"
+    welcomed = f"Hey <b>{message.from_user.first_name}</b>\nಸ್ವಾಗತ ನಿಮಗೆ ಇದು @serials_funda ಅವರ official ಬಿಗ್ ಬಾಸ್ ಕನ್ನಡ 9 bot
+ಪೋಸ್ಟ್ ಮಾಡಿದ ಕೂಡಲೇ ತಿಳಿಯಲು bot ನೋಟಿಫಿಕೇಶನ್ ಆನ್ ಮಾಡಿ.\n\n 🎚 use /settings"
     await message.reply_text(welcomed, reply_markup=joinButton)
     raise StopPropagation
 
