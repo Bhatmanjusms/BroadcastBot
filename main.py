@@ -55,8 +55,7 @@ async def startprivate(client, message):
             ]
         ]
     )
-    welcomed = f"Hey <b>{message.from_user.first_name}</b>\nಸ್ವಾಗತ ನಿಮಗೆ ಇದು @serials_funda ಅವರ official ಬಿಗ್ ಬಾಸ್ ಕನ್ನಡ 9 bot
-ಪೋಸ್ಟ್ ಮಾಡಿದ ಕೂಡಲೇ ತಿಳಿಯಲು bot ನೋಟಿಫಿಕೇಶನ್ ಆನ್ ಮಾಡಿ.\n\n 🎚 use /settings"
+    welcomed = f"Hey <b>{message.from_user.first_name}</b>\nಸ್ವಾಗತ ನಿಮಗೆ ಇದು @serials_funda ಅವರ official ಬಿಗ್ ಬಾಸ್ ಕನ್ನಡ 9 bot ಪೋಸ್ಟ್ ಮಾಡಿದ ಕೂಡಲೇ ತಿಳಿಯಲು bot ನೋಟಿಫಿಕೇಶನ್ ಆನ್ ಮಾಡಿ.\n\n 🎚 use /settings"
     await message.reply_text(welcomed, reply_markup=joinButton)
     raise StopPropagation
 
